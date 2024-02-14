@@ -1,0 +1,80 @@
+
+
+#carouselExampleCaptions .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 60svh;
+  overflow: hidden;
+}
+
+.carousel-item p {
+  text-shadow: 1px 1.5px 2px black;
+  font-size: larger;
+}
+
+.carousel-item h2 {
+  text-shadow: 1px 1.5px 2px black;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 1.6em;
+  color: grey;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.3em;  
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+
+#jumbotron {
+  height: 40vh;
+}
+
+
+#actionplan {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+}
+
+
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+}
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+}
+
+
+
