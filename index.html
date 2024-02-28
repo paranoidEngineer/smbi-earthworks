@@ -242,71 +242,47 @@
                 <h3 class="mb-3">Optional Form for Free Quote</h3>
 
                 <form action="https://formsubmit.co/theparanoidengineer@gmail.com" method="POST" target="_blank">
-                  <input type="hidden" name="_subject" value="New Email Received">
+    <input type="hidden" name="_subject" value="New Email Received">
 
-                  <div class="col-md-6">
-                    <label for="validationDefault01" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="validationDefault01" pattern="[a-zA-Z]+" 
-                          maxlength="30" minlength="2" value="" required>
-                  </div>
+    <div class="col-md-6">
+        <label for="validationDefault01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationDefault01" name="firstname" pattern="[a-zA-Z]+" maxlength="30" minlength="2" required>
+    </div>
+    <div class="col-md-6">
+        <label for="validationDefault02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationDefault02" name="lastname" pattern="[a-zA-Z]+" maxlength="30" minlength="2" required>
+    </div>
 
-                  <div class="col-md-6">
-                    <label for="validationDefault02" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="validationDefault02" pattern="[a-zA-Z]+" 
-                    maxlength="30" minlength="2" value="" required>
-                  </div>
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" name="email" pattern="(\w\.?)+@[\w\.-]+\.\w{2,}" required>
+    </div>
 
-                  <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" 
-                     pattern="(\w\.?)+@[\w\.-]+\.\w{2,}" value="" required>
-                  </div>
-                  
-                  <!----------------------------------------------------------------------------
-                  <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder=""
-                    pattern="[a-zA-Z0-9 ]+" maxlength="40" minlength="4" value="" required>
-                  </div>
-                  -------------------------------------------------------------------------------->
-                  
-                  <div class="col-md-4">
-                    <label for="inputState" class="form-label">Location</label>
-                    <select id="inputState" class="form-select", required>
-                      <option value="" selected>Choose ...</option>
-                      <option value="redlandbay">Redland Bay</option>
-                      <option value="russell_island">Russell Island</option>
-                      <option value="macleay_island">Macleay Island</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
+    <div class="col-md-4">
+        <label for="inputState" class="form-label">Location</label>
+        <select id="inputState" class="form-select" name="location" required>
+            <option value="" selected>Choose ...</option>
+            <option value="redlandbay">Redland Bay</option>
+            <option value="russell_island">Russell Island</option>
+            <option value="macleay_island">Macleay Island</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
 
-                  <!---------------------------------------------------------------------------
-                  <div class="col-md-3">
-                    <label for="inputZip" class="form-label">Postcode</label>
-                    <input type="text" class="form-control" id="inputZip" pattern="[0-9]+"
-                            maxlength="4" minlength="4" value="" required>
-                  </div>
-                  ----------------------------------------------------------------------------->
-                  <br/>
-                  <div class="col-12">
-                    <label for="comment">Tell us what you require: Leave Phone Number</label>
-                    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-                  </div>
-                  <br/>
-                  <!----------------------------------------------------------------------------
-                  <div class="col-12">
-                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-                  </div>
-                  ----------------------------------------------------------------------------->
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Submit Form</button>
-                  </div>
+    <br/>
+    <div class="col-12">
+        <label for="comment">Tell Us Your Requirements: Leave Your Phone Number</label>
+        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+    </div>
+    <br/>
 
-                </form>    
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit Form</button>
+    </div>
+</form>
 
               <!----------------------------- End Form ----------------------------------------------->
-          
+
             </div>
         </div>
     </div>
